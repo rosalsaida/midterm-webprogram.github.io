@@ -1,170 +1,79 @@
 @font-face {
-    font-family: 'Cafe Francoise';
-    src: url("font/cafe-francoise/Cafe\ Francoise_D.otf");
-}
-
-@font-face {
-    font-family: 'Soft Marshmallow';
-    src: url("font/soft-marshmallow/Soft\ Marshmallow.otf");
+    font-family: 'Melodin';
+    src: url("Melodin Font/Melodin.otf");
 }
 
 header {
+    background-color: #867070;
     height: 100px;
-    background-color: black;
-    position: fixed;
-    width: 100%;
 }
 
-.header-logo {
-    font-family: 'Soft Marshmallow';
+.header-title {
+    font-family: 'Melodin';
     float: left;
-    color: beige;
-    letter-spacing: 3px;
-}
-
-.header-logo img {
-    width: 60px;
-    margin: 8% 0;
-}
-
-.header-logo h3 {
-    float: right;
-    padding: 34px 0 34px 3px;
-}
-
-.header-menu {
-    padding: 0 20px;
-}
-
-.header-menu li {
-    float: left;
-}
-
-.menu a {
-    text-decoration: none;
-    color: beige;
     line-height: 100px;
-    margin: 0 10px;
-    display: block;
-    font-size: 15px;
-}
-
-.menu:hover,
-.menu a:hover {
-    background-color: white;
-    color: black;
-}
-
-.menu_pesanan h1 {
-    padding-top: 120px;
-    font-family: 'Cafe Francoise';
-    text-align: center;
-}
-
-.menu_pesanan_1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.menu_pesanan_1 img {
-    width: 400px;
-    margin: 20px 20px 20px 0;
-}
-
-.menu_dan_harga {
-    height: 30px;
-    line-height: 30px;
-    margin: 130px 0;
-    font-size: 16px;
-}
-
-.menu_dan_harga td {
-    text-align: left;
-    padding-right: 15px;
-}
-
-.menu_dan_harga th {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.daftar_pesanan {
-    display: flex;
-    justify-content: center;
-    padding: 30px 0;
-}
-
-.pesan {
-    background-color: whitesmoke;
-    width: 550px;
-    padding: 50px 70px;
-}
-
-.hasil_pembelian {
-    margin: 60px 0;
-}
-
-#status_pembelian,
-#status_pembelian1 {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 0 5px;
-}
-
-#tabel_pembelian {
-    display: flex;
-    justify-content: center;
-    line-height: 40px;
-    margin-top: 25px;
-}
-
-#nama_pembeli,
-#alamat_pembeli,
-#no_hp_pembeli,
-#pilihan_mie_pembeli,
-#jumlah_porsi_pembeli,
-#keterangan_pembeli,
-#total_pembayaran {
-    min-width: 150px;
-    padding-left: 15px;
-}
-
-#label_data {
-    padding-right: 20px;
-}
-
-footer {
-    background-color: black;
-    height: 200px;
     color: white;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    justify-items: center;
-    padding-top: 30px;
-}
-
-.about_web,
-.creator,
-.name_college,
-.social_media {
-    margin: 0 10px;
-}
-
-footer h4 {
-    font-size: 14px;
+    padding: 0 20px 0 30px;
+    font-size: 30px;
     letter-spacing: 5px;
 }
 
-footer p,
-footer table {
-    font-size: 13px;
+.header-list {
+    float: right;
+    height: 100px;
 }
 
-.creator td {
-    padding-right: 5px;
+li {
+    float: left;
 }
 
-.name_college img {
-    width: 60px;
+.list a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 100px;
+    margin: 0 30px;
+}
+
+.list:hover {
+    background-color: #D5B4B4;
+}
+
+article {
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.card {
+    margin: 10px 20px;
+}
+
+.card-header a {
+    color: #867070;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-text a {
+    color: black;
+    text-decoration: none;
+}
+
+.card-header a:hover,
+.card-text a:hover {
+    color: #D5B4B4;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
 }
